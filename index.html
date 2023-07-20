@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library of Congress Search Tool</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
     <h1>Search Results</h1>
 
@@ -16,6 +18,17 @@
         <label for="formatSelect">Format:</label>
         <select id="formatSelect" name="formatSelect">
             <!-- add option elements for each possible format -->
+            <option value="">--Select a format--</option>
+            <option value="audio">Audio Recordings</option>
+            <option value="books">Books</option>
+            <option value="film">Film, Video</option>
+            <option value="legislation">Legislation</option>
+            <option value="manuscript">Manuscripts/Mixed Material</option>
+            <option value="maps">Maps</option>
+            <option value="newspapers">Newspapers</option>
+            <option value="photos">Photographs, Prints, Drawings</option>
+            <option value="software">Software, E-Resources</option>
+            <option value="web">Web Archives</option>
         </select>
 
         <input type="submit" value="Search">
@@ -27,4 +40,5 @@
 
     <script src="./assets/script.js"></script>
 </body>
+
 </html>
