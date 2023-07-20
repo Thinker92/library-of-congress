@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Congress Search Tool</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <h1>Search Results</h1>
+
+    <form id="searchForm">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" name="searchInput">
+
+        <label for="formatSelect">Format:</label>
+        <select id="formatSelect" name="formatSelect">
+            <!-- add option elements for each possible format -->
+        </select>
+
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="resultsContainer">
+        <!-- Results from API will go here -->
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
